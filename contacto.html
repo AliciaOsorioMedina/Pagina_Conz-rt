@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="conzert_css/style.css" />
+    <!--Font Google-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="imagenes/favicon-32x32.png"
+      type="favicon"
+    />
+    <title>Conzërt | Contacto</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <!--NAV BAR-->
+      <nav class="container">
+        <div class="row">
+          <a class="logo" href="index.html">
+            <img src="imagenes/Letra C roja.png" alt="Logo C roja"
+          /></a>
+          <div class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="quienessomos.html"
+                  >¿Quiénes somos?</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="plandeestudios.html"
+                  >Plan de estudios</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="contacto.html"> Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="main__title-sections">
+            <h1>Contacto</h1>
+          </div>
+          <div class="form__contact shadow">
+            <div class="col">
+              <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input
+                  type="text"
+                  name="nombre"
+                  placeholder="Ej: José López"
+                /><br /><br />
+                <label for="correo"></label> Correo:<input
+                  type="email"
+                  name="correo"
+                  placeholder="Ej: jose@lopez.com"
+                /><br /><br />
+                <label for="telefono">Teléfono:</label>
+                <input
+                  type="tel"
+                  name="telefono"
+                  placeholder="Ej. 312-333-4444"
+                />
+                <br /><br />
+                <label for="instrumentos">Instrumento(s) de mi interés:</label>
+                <input type="checkbox" name="instrumentos" value="piano" />Piano
+                <input
+                  type="checkbox"
+                  name="instrumentos"
+                  value="violin"
+                />Violín
+                <input
+                  type="checkbox"
+                  name="instrumentos"
+                  value="violonchelo"
+                />Violonchelo
+                <input type="checkbox" name="instrumentos" value="canto" />Canto
+                <br /><br />
+                ¿Cuenta con instrumento propio? <br />
+                <input type="radio" name="propio" value="si" />Sí <br />
+                <input type="radio" name="propio" value="no" />No <br />
+                <br />
+                Seleccione el rango de edad de quién tomaría clases:
+                <br /><br />
+                <select name="edad">
+                  <option value="estimulacion">3 a 5 años</option>
+                  <option value="niño">6 a 10 años</option>
+                  <option value="adolescente">11 a 20 años</option>
+                  <option value="adulto">21 años en adelante</option>
+                </select>
+                <br />
+                <br />
+                ¿Como te podemos ayudar?<br />
+                <textarea name="dudas" id="" cols="30" rows="10"></textarea
+                ><br /><br />
+                <input type="reset" name="borrar" value="Borrar formulario" />
+                <input type="submit" name="enviar" value="Enviar" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER CON REDES SOCIALES-->
+    <footer class="footer">
+      <div class="footer-social-media">
+        <div class="container">
+          <div class="container-contact">
+            <h3 class="footer__title">Contacto</h3>
+            <h4>
+              <i class="fas fa-envelope"></i>
+              <a
+                href="mailto:conzertacademia@gmail.com"
+                target="_blank"
+                title="Mandar correo a Conzërt"
+                >conzertacademia@gmail.com</a
+              >
+            </h4>
+            <h4>
+              <i class="fab fa-whatsapp"></i>
+              <a href="https://wa.me/523521034906" target="_blank"
+                >3521034906</a
+              >
+            </h4>
+          </div>
+          <div class="container-follow">
+            <h3 class="footer__title">Síguenos</h3>
+            <h4>
+              <i class="fab fa-facebook-square"></i>
+              <a href="https://www.facebook.com/ConzertAEM" target="_blank"
+                >ConzertAEM</a
+              >
+            </h4>
+            <h4>
+              <i class="fab fa-instagram"></i>
+              <a
+                href="https://www.instagram.com/conzertacademia/?hl=es-la"
+                target="_blank"
+                >conzertacademia</a
+              >
+            </h4>
+          </div>
+        </div>
+        <!--FOOTER CON COPYRIGHT-->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row footer-bottom__copyright">
+              <div class="col">
+                &copy;<span>
+                  2021 Conzërt | Academia de estudios musicales</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
