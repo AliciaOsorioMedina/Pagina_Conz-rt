@@ -26,13 +26,10 @@ svg {
   margin: 0 auto;
   max-width: 1320px;
 }
-.shadow {
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 1);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border-radius: 1.5rem;
+
+/*Navbar Bootstrap*/
+.menu {
+  background-color: #a90019;
 }
 
 /*HEADER*/
