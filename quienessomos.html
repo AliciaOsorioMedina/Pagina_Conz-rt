@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="conzert_css/style.css" />
-    <!--Font Google-->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--FONT GOOGLE-->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
-    <!--Font Awesome-->
+    <!--FONT AWESOME-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -35,14 +35,15 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+    <!--ICONOS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Conzërt | ¿Quiénes somos?</title>
   </head>
   <body>
     <!--HEADER-->
     <header>
       <!--NAV BAR-->
-      <nav class="navbar navbar-expand-lg navbar-dark menu">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark menu">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img
@@ -83,12 +84,12 @@
     </header>
     <main>
       <section>
-        <div class="container">
+        <div class="container pt-5 mt-5 text-center">
           <div>
             <h1>¿Quiénes somos?</h1>
           </div>
-          <p>
-            CONZËRT ofrece a sus alumnos enseñanza
+          <p class="lead pt-3">
+            <span >CONZËRT</span>  ofrece a sus alumnos enseñanza
             musical especializada en piano, violín, violoncello y canto.
             Asímismo, hay programas especializados como estimulación musical
             infantil, cursos, diplomados y master class.
@@ -102,7 +103,7 @@
               <div class="card bg-secondary text-light text-center">
                 <div class="card-body">
                   <div class="h1">
-                    <i class="bi bi-award"></i>
+                    <i class="bi bi-people"></i> 
                   </div>
                   <h3 class="card-title">Misión</h3>
                   <p class="card-text">Desarrollar las habilidades musicales de nuestros alumnos con un
@@ -126,24 +127,20 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="p-5">
         <!--TODO EL EQUIPO-->
-        <div class="full-team container">
-          <div class="main__title-sections">
+        <div class="container">
+          <div class="text-center">
             <h2>Equipo docente</h2>
           </div>
-          <div>
-            <div class="team fer shadow">
-              <div class="row">
-                <img
-                  class="fer__image"
-                  src="imagenes/fer.jpg"
-                  alt="foto de Fernanda Saldaña"
-                />
-                <div>
-                  <h3 class="col">Fernanda Cortés Saldaña</h3>
-                  <p>
-                    Licenciada en Música por la Universidad de Colima
+          <div class="row align-items-center justify-content-between">
+           <div class="col-md-4 col-lg-3">
+<img src="imagenes/fer-red.jpg" class="img-fluid pt-3" alt="foto-fer">
+           </div>
+<div class="col-md-8 col-lg-9 ps-m-5 pt-sm-5">
+  <h5>Fernanda Cortés</h5>
+  <p>
+    Licenciada en Música por la Universidad de Colima
                     (especialidad en piano). Máster en Psicomotricidad
                     Terapéutica Infantil por la Universidad Europea Miguel de
                     Cervantes de Madrid. Solista con la Orquesta del
@@ -163,102 +160,63 @@
                     Internacionales de Música de La Piedad y Coordinadora del
                     Departamento de Música de la Universidad UNIVA, Campus La
                     Piedad.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="team luis shadow">
-              <div class="row">
-                <img
-                  class="fer__image"
-                  src="imagenes/fer.jpg"
-                  alt="foto de Fernanda Saldaña"
-                />
-                <div>
-                  <h3 class="col">Luis Ángel Rivera</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae doloremque illum totam error accusantium quis commodi
-                    deleniti dicta omnis quae voluptatibus sequi laboriosam
-                    mollitia, dolorum dolorem possimus! Cupiditate, porro
-                    numquam. Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Numquam provident placeat corporis alias hic? Non
-                    suscipit mollitia est tenetur accusamus asperiores voluptate
-                    sequi a magnam, saepe odit at. Ut, pariatur!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="team pepe shadow">
-              <div class="row">
-                <img
-                  class="jose__image"
-                  src="imagenes/pepe.jpg"
-                  alt="foto de Jose Favila"
-                />
-                <div>
-                  <h3 class="col">José Favila</h3>
-                  <p>
-                    Licenciado en Instrumentismo (violín) por el Conservatorio
-                    de Música y Artes de Celaya. Ha tomado masterclass con
-                    destacados instrumentistas y grupos de cámara como: Adrián
-                    Justus, Erika Dobosiewicz, Ron Francois, Antonio Malavé,
-                    Atis Bankas, Hermitage piano trio, Alon Sariel, entre otros.
-                    También ha enriquecido su formación como músico y maestro
-                    tomando el curso de fundamentos de la dirección con el
-                    maestro Bartholomeus Van Develde y uno más sobre el método
-                    Tort impartido por el maestro Itzaind Jiménez. Desde 2007
-                    forma parte del ensamble de música tradicional mexicana
-                    “Grupo Santiago” en la ciudad de Querétaro bajo la dirección
-                    de José Favila Flores, con esta agrupación ha participado en
-                    festivales internacionales de folclore en Italia, Francia,
-                    Suiza, Estados Unidos y Costa Rica. El Grupo Santiago se ha
-                    especializado en la canción histórica, lo cual lo ha llevado
-                    a participar en eventos conmemorativos a nivel nacional,
-                    además de participar en las grabaciones de los discos
-                    “Música Tradicional Mexicana vol. III” y “Las Músicas que
-                    nos dieron Patria”. En 2010 colaboró en la grabación “Ecos
-                    del Bicentenario” en conjunto con la agrupación Voces de
-                    Guanajuato. En mayo de 2020 es ganador del estímulo
-                    artístico “Contigo en la Distancia” por la Secretaria de
-                    Cultura (Federal) con el programa “Aires de las Revoluciones
-                    de México” del Grupo Santiago. Actualmente trabaja en la
-                    producción musical del disco “Música Tradicional Mexicana
-                    vol. IV” con el Grupo Santiago y es maestro de violín de la
-                    Academia Conzërt.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="team alicia shadow">
-              <div class="row">
-                <img
-                  class="fer__image"
-                  src="imagenes/fer.jpg"
-                  alt="foto de Fernanda Saldaña"
-                />
-                <div>
-                  <h3 class="col">Alicia Osorio</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae doloremque illum totam error accusantium quis commodi
-                    deleniti dicta omnis quae voluptatibus sequi laboriosam
-                    mollitia, dolorum dolorem possimus! Cupiditate, porro
-                    numquam. Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Numquam provident placeat corporis alias hic? Non
-                    suscipit mollitia est tenetur accusamus asperiores voluptate
-                    sequi a magnam, saepe odit at. Ut, pariatur!
-                  </p>
-                </div>
-              </div>
-            </div>
+  </p>
+</div>
+           
           </div>
         </div>
+        <div class="container pt-5">
+<div class="row align-items-center justify-content-between">
+  <div class="col-md-8 col-lg-9">
+    <h3>Luis Ángel Rivera</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ipsa aspernatur quasi molestiae natus facere earum deserunt voluptas, eveniet, fuga animi libero unde placeat rerum. Hic nihil eius laudantium a molestiae cupiditate aspernatur ad ipsam illum? A quidem nam, repudiandae repellendus exercitationem quam ipsum corrupti eos unde suscipit voluptates quod enim sequi. Eaque velit enim corporis, vero odio quis in perspiciatis molestiae esse quam ipsam, doloremque officiis corrupti iure quod fuga, expedita suscipit maxime reprehenderit libero rerum? Vero dicta iure qui veritatis mollitia possimus molestias sequi saepe eligendi, magnam soluta consectetur recusandae! Explicabo, doloremque alias dicta eaque neque ab assumenda vel perferendis corrupti nisi. Aliquid, vitae nulla? Praesentium, fugiat eum hic perspiciatis consequatur voluptatibus totam libero eius illum. Corporis et autem asperiores aspernatur quas dolor quod quibusdam reiciendis esse perferendis incidunt molestias suscipit illo placeat sequi quam porro ab natus, qui a facilis. Dolorem ab atque molestiae aut dolor temporibus consectetur vel ipsum rerum possimus. A, ea laudantium? Praesentium suscipit aliquam error hic perferendis voluptate vel molestiae a nam voluptatibus! Voluptatem at quaerat culpa et modi dolorem eligendi minima excepturi recusandae vitae earum quidem eius, dolores aperiam in. Aut dolorem earum nostrum vitae eveniet ipsum! Laboriosam eum asperiores eos tempore.</p>
+  </div>
+  <div class="col-md-4 col-lg-3">
+    <img src="imagenes/luis-angel(1).jpg" class="img-fluid" alt="foto-luis">
+  </div>
+</div>
+        </div>
+        <div class="container pt-5" >
+        <div class="row align-items-center justify-content-between">
+        <div class="col-md-4 col-lg-3">
+<img src="imagenes/pepe-red.jpg" class="img-fluid" alt="foto-pepe">
+        </div>
+        <div class="col-md-8 col-lg-9 ps-m-5">
+<h3>José Favila</h3>
+<p>Licenciado en Instrumentismo (violín) por el Conservatorio
+  de Música y Artes de Celaya. Ha tomado masterclass con
+  destacados instrumentistas y grupos de cámara como: Adrián
+  Justus, Erika Dobosiewicz, Ron Francois, Antonio Malavé,
+  Atis Bankas, Hermitage piano trio, Alon Sariel, entre otros.
+  También ha enriquecido su formación como músico y maestro
+  tomando el curso de fundamentos de la dirección con el
+  maestro Bartholomeus Van Develde y uno más sobre el método
+  Tort impartido por el maestro Itzaind Jiménez. Desde 2007
+  forma parte del ensamble de música tradicional mexicana
+  “Grupo Santiago” en la ciudad de Querétaro bajo la dirección
+  de José Favila Flores, con esta agrupación ha participado en
+  festivales internacionales de folclore en Italia, Francia,
+  Suiza, Estados Unidos y Costa Rica. El Grupo Santiago se ha
+  especializado en la canción histórica, lo cual lo ha llevado
+  a participar en eventos conmemorativos a nivel nacional,
+  además de participar en las grabaciones de los discos
+  “Música Tradicional Mexicana vol. III” y “Las Músicas que
+  nos dieron Patria”. En 2010 colaboró en la grabación “Ecos
+  del Bicentenario” en conjunto con la agrupación Voces de
+  Guanajuato. En mayo de 2020 es ganador del estímulo
+  artístico “Contigo en la Distancia” por la Secretaria de
+  Cultura (Federal) con el programa “Aires de las Revoluciones
+  de México” del Grupo Santiago. Actualmente trabaja en la
+  producción musical del disco “Música Tradicional Mexicana
+  vol. IV” con el Grupo Santiago y es maestro de violín de la
+  Academia Conzërt.</p>
+        </div>
+      </div>
+      </div>
       </section>
     </main>
     <!--FOOTER CON REDES SOCIALES-->
-    <footer class="footer">
+    <!--<footer class="footer">
       <div class="footer-social-media">
         <div class="container">
           <div class="container-contact">
@@ -296,8 +254,8 @@
               >
             </h4>
           </div>
-        </div>
-        <!--FOOTER CON COPYRIGHT-->
+        </div>!-->
+        <!--FOOTER CON COPYRIGHT
         <div class="footer-bottom">
           <div class="container">
             <div class="row footer-bottom__copyright">
@@ -310,7 +268,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer>-->
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
