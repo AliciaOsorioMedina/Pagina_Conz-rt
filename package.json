@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass src/scss/main.scss -o src/css",
+    "build-css": "node-sass scss/main.scss -o css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
