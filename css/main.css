@@ -1,3 +1,10 @@
 /*Navbar Bootstrap*/
 .menu {
-  background-color: #a90019; }
+  background-color: #a90019;
+}
+
+#slider {
+  max-width: 650px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
