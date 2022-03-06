@@ -1,13 +1,13 @@
-/*Navbar Bootstrap*/
-$color-menu: #a90019;
+@import "variables";
+@import "prueba";
 
 .menu,
 .footer-social-media {
-  background-color: $color-menu;
+  background-color: $main-color;
 }
 
 .conzert {
-  color: $color-menu;
+  color: $main-color;
 }
 
 #slider {

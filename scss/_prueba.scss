@@ -1,0 +1,21 @@
+.temporary_one {
+    background-color: $secondary-color;
+}
+
+.temporary_two {
+    @extend .temporary_one;
+    color: $main-color;
+    border: dotted black;
+    font-style: oblique;
+}
+
+.temporary_three {
+    @extend .temporary_one;
+    color: $main-color;
+    font-weight: 600;
+}
+
+.temporary_four {
+    @extend .temporary_one;
+    font-style: $text-style;
+}

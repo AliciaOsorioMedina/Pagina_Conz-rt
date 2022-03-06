@@ -1,11 +1,33 @@
-/*Navbar Bootstrap*/
+.temporary_one, .temporary_two, .temporary_three, .temporary_four {
+  background-color: #a0a0a0;
+}
+
+.temporary_two {
+  color: #a90019;
+  border: dotted black;
+  font-style: oblique;
+}
+
+.temporary_three {
+  color: #a90019;
+  font-weight: 600;
+}
+
+.temporary_four {
+  font-style: italic;
+}
+
 .menu,
 .footer-social-media {
-  background-color: #a90019; }
+  background-color: #a90019;
+}
 
 .conzert {
-  color: #a90019; }
+  color: #a90019;
+}
 
 #slider {
   max-width: 650px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
