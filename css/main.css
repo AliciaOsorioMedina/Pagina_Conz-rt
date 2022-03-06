@@ -1,15 +1,11 @@
 /*Navbar Bootstrap*/
 .menu,
 .footer-social-media {
-  background-color: #a90019;
-}
+  background-color: #a90019; }
 
 .conzert {
-  color: #a90019;
-}
+  color: #a90019; }
 
 #slider {
   max-width: 650px;
-  margin: 0 auto;
-}
-/*# sourceMappingURL=main.css.map */
+  margin: 0 auto; }
