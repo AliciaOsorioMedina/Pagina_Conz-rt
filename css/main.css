@@ -1,6 +1,11 @@
 /*Navbar Bootstrap*/
-.menu {
+.menu,
+.footer-social-media {
   background-color: #a90019;
+}
+
+.conzert {
+  color: #a90019;
 }
 
 #slider {

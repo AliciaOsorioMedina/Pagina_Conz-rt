@@ -1,8 +1,14 @@
 /*Navbar Bootstrap*/
-$color-menu: red;
+$color-menu: #a90019;
 
-.menu {
-  background-color: #a90019;
+.menu,
+.footer-social-media,
+  {
+  background-color: $color-menu;
+}
+
+.conzert {
+  color: $color-menu;
 }
 
 #slider {
