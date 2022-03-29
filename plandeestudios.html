@@ -1,198 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="conzert_css/style.css" />
-    <!--Font Google-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!--Font Awesome-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="shortcut icon"
-      href="imagenes/favicon-32x32.png"
-      type="favicon"
-    />
-    <title>Conzërt | Plan de estudios</title>
-  </head>
-  <body>
+    <meta name="description"
+        content="Academia formal de estudios musicales. Masterclass. Enseñanza musical infantil y juvenil. Conzert. La Piedad, Michoacan.">
+    <meta name="keywords"
+        content="academia, estudios, musica, clases, piano, canto, violin, masterclass, taller, master mind, estimulacion musical, piano infantil, conzert, La Piedad, Michoacan.">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <!--FONT GOOGLE - Para elegir una fuente de Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
+
+    <!--FONT AWESOME - Para agregar íconos y poder cambiarlos de color-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--FAV ICON - Para que se vea una imagen en la pestaña-->
+    <link rel="shortcut icon" href="imagenes/favicon-32x32.png" type="favicon" />
+
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!--ICONOS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>Conzërt | Programas de estudio</title>
+</head>
+
+<body>
     <!--HEADER-->
     <header>
-      <!--NAV BAR-->
-      <nav class="container">
-        <div class="row">
-          <a class="logo" href="index.html">
-            <img src="imagenes/Letra C roja.png" alt="Logo C roja"
-          /></a>
-          <div class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="quienessomos.html"
-                  >¿Quiénes somos?</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="plandeestudios.html"
-                  >Plan de estudios</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="noticias.html">Noticias</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="contacto.html"> Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        <!--NAV BAR-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark menu">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagenes/Letra C roja.png" alt="logo" width="50" height="50" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-white" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-white" href="quienessomos.html">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-white" href="plandeestudios.html">Programas de estudio</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-white" href="noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-      <section>
-        <div class="main__title-sections">
-          <h1>Plan de estudios</h1>
-        </div>
-        <div class="main__table shadow container">
-          <div class="row">
-            <div class="table__list">
-              <table border="1" cellspacing="5" cellpadding="10">
-                <tbody>
-                  <tr>
-                    <th>Programa Inicial</th>
-                    <th>Programa Intermedio</th>
-                    <th>Programa Avanzado</th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <strong>Estimulación Temprana</strong>
-                      <ul>
-                        <li>Acercar a la música a niños de 3 a 5 años</li>
-                        <ol>
-                          <li>Interactuar</li>
-                          <li>Comunicar</li>
-                          <li>Expresar</li>
-                        </ol>
-                      </ul>
-                    </td>
-                    <td>
-                      <ol>
-                        <li>
-                          <strong> Programa Básico</strong> (1 clase de 40 min x
-                          semana)
-                        </li>
-                        <ul>
-                          <li>Introducción al instrumento</li>
-                          <li>Iniciación al solfeo e historia musical</li>
-                          <li>Interpretación</li>
-                        </ul>
-                        <li>
-                          <strong> Programa Talento Joven</strong> (1 clase de
-                          1hr x semana)
-                        </li>
-                        <ul>
-                          <li>Instrumento</li>
-                          <li>Solfeo e historia</li>
-                        </ul>
-                      </ol>
-                    </td>
-                    <td>
-                      <ol>
-                        <li>
-                          <strong> Programa Virtuosismo</strong> (2 clases x
-                          semana de 45min c/u)
-                        </li>
-                        <ul>
-                          <li>Técnica instrumental</li>
-                          <li>Preparación para licenciatura</li>
-                        </ul>
-                        <li>
-                          <strong>Programa de Perfeccionamiento</strong>
-                        </li>
-                        <ul>
-                          <li>
-                            Dirigido a egresados o estudiantes de licenciatura
-                          </li>
-                          <li>
-                            "A la carta": estancia el tiempo que deseen como
-                            preparación para estudios posteriores
-                          </li>
-                        </ul>
-                      </ol>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+        <!--PROGRAMAS-->
+        <section class="p-5">
+            <div class="container mt-5 text-center">
+                <h1 class="main__title-sections">Programas de estudio</h1>
             </div>
-          </div>
-        </div>
-      </section>
+
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md pt-5 text-center">
+                    <h4 class="temporary_one">Estimulación musical temprana</h4>
+                    <p class="lead">Dicen que los primeros 5 años marcan toda una vida
+                    </p>
+                    <p>Mediante el programa de
+                        estimulación musical temprana, los niños de 1 a 5 años desarrollan al máximo sus capacidades
+                        musicales, intelectuales y motrices.
+                    </p>
+                    <div>
+                        <img class="img-fluid pt-4" src="imagenes/fer-niño-red.jpg" alt="niño piano">
+                    </div>
+                </div>
+                <div class="col-md pt-5 text-center">
+                    <h4 class="temporary_two">Programa infantil de piano</h4>
+                    <p class="lead">
+                        ¡Ayúdale a ser el número uno!
+                    </p>
+                    <p>
+                        Formulado especialmente para niños entre 6 y 12 años, el programa ofrece una educación musical
+                        especializada de la más alta calidad. Incluye materias como solfeo, apreciación musical y
+                        armonía. ¡Deja que destaque y que su talento brille como nunca!
+                    </p>
+                    <div>
+                        <img class="img-fluid" src="imagenes/fer-niño2-red.jpg" alt="niño piano">
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between pt-4">
+                <div class="col-md pt-5 text-center">
+                    <h4 class="temporary_three">Programa jóvenes talento</h4>
+                    <p>
+                        Programa diseñado especialmente para jóvenes a partir de los 13 años que desean aprender a tocar
+                        el piano e incrementar sus habilidades sociales, cognitivas y musicales. Se incluyen materias
+                        como solfeo, cultura musical, ansiedad escénica, etc.
+                    </p>
+                    <div>
+                        <img class="img-fluid" src="imagenes/fer-niño2-red.jpg" alt="niño piano">
+                    </div>
+                </div>
+                <div class="col-md pt-5 text-center">
+                    <h4 class="temporary_four">Master Mind Program</h4>
+                    <p>
+                        Es un programa intensivo de trabajo dirigido a estudiantes de nivel licenciatura. Los
+                        estudiantes admitidos pueden realizar estancias "a la carta". Durante el perdiodo de tiempo
+                        elegido reciben una formación de alto nivel que los ayuda a proyectar sus carreras
+                        internacionalmente.
+                    </p>
+                    <div>
+                        <img class="img-fluid" src="imagenes/fer-niño-red.jpg" alt="niño piano">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ACORDEON-->
+        <section id="acordeon">
+            <div class="container mt-5 mb-5">
+                <h4 class="text-center pb-3 pt-3">Preguntas frecuentes</h4>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                ¿Dónde estamos localizados?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Nos encontramos en La Piedad de Cavadas, Michoacán. Con
+                                dirección en Calle
+                                Heriberto Jara 12, Centro, C.P. 59300</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                ¿A partir de qué edades se puede ingresar?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    ¿Los alumnos hacen presentaciones de su trabajo al público?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Sí, se realizan distintas presentaciones durante el año,
+                                    como lo es en verano y recitales en diciembre al igual en distintos lugares así como
+                                    presentaciones entre compañeros como preparación a los eventos.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
     </main>
     <!--FOOTER CON REDES SOCIALES-->
-    <footer class="footer">
-      <div class="footer-social-media">
-        <div class="container">
-          <div class="container-contact">
-            <h3 class="footer__title">Contacto</h3>
-            <h4>
-              <i class="fas fa-envelope"></i>
-              <a
-                href="mailto:conzertacademia@gmail.com"
-                target="_blank"
-                title="Mandar correo a Conzërt"
-                >conzertacademia@gmail.com</a
-              >
-            </h4>
-            <h4>
-              <i class="fab fa-whatsapp"></i>
-              <a href="https://wa.me/523521034906" target="_blank"
-                >3521034906</a
-              >
-            </h4>
-          </div>
-          <div class="container-follow">
-            <h3 class="footer__title">Síguenos</h3>
-            <h4>
-              <i class="fab fa-facebook-square"></i>
-              <a href="https://www.facebook.com/ConzertAEM" target="_blank"
-                >ConzertAEM</a
-              >
-            </h4>
-            <h4>
-              <i class="fab fa-instagram"></i>
-              <a
-                href="https://www.instagram.com/conzertacademia/?hl=es-la"
-                target="_blank"
-                >conzertacademia</a
-              >
-            </h4>
-          </div>
+    <footer class="footer bg-dark">
+        <div class="footer-sm text-white menu ">
+            <div class="container">
+                <div class="row py-3 text-white">
+                    <div class="col">Contacto
+                        <a class="text-decoration-none text-white d-block" href="mailto:conzertacademia@gmail.com"
+                            target="_blank" title="Mandar correo a Conzërt">
+                            <i class="fas fa-envelope pe-1"></i>
+                            <span class="d-none d-sm-none d-md-inline">conzertacademia@gmail.com</span>
+                        </a>
+                        <a class="text-decoration-none text-white d-block" href="https://wa.me/523521034906"
+                            target="_blank"><i class="fab fa-whatsapp pe-2"></i><span
+                                class="d-none d-sm-none d-md-inline">3521034906</span>
+                        </a>
+                    </div>
+                    <div class="col">Síguenos
+                        <a class="text-decoration-none text-white d-block" href="https://www.facebook.com/ConzertAEM"
+                            target="_blank">
+                            <i class="fab fa-facebook-square pe-1"></i>
+                            <span class="d-none d-sm-none d-md-inline">ConzertAEM</span>
+                        </a>
+
+                        <a class="text-decoration-none text-white d-block"
+                            href="https://www.instagram.com/conzertacademia/?hl=es-la" target="_blank"><i
+                                class="fab fa-instagram pe-1 fs-sm-3"></i>
+                            <span class="d-none d-sm-none d-md-inline">conzertacademia</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
         </div>
         <!--FOOTER CON COPYRIGHT-->
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row footer-bottom__copyright">
-              <div class="col">
-                &copy;<span>
-                  2021 Conzërt | Academia de estudios musicales</span
-                >
-              </div>
+        <div class="bg-dark text-white text-center">
+            <div class="container small">
+                <div class="row">
+                    <div class="col">
+                        &copy;2021 Conzërt | Academia de estudios musicales
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </footer>
-  </body>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
