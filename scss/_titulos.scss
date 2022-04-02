@@ -1,0 +1,25 @@
+/*TITULOS Y SUBTITULOS DE SECCIONES*/
+.conzert {
+    color: $main-color;
+}
+
+.subsections {
+    font-family: "courgette";
+}
+
+.main__title-sections {
+    font-size: 2rem;
+}
+
+.main__image-title {
+    @include main-titles(35%);
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.main__sub-title {
+    @include main-titles(40%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

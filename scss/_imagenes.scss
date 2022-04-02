@@ -1,0 +1,39 @@
+/*IMAGEN PRINCIPAL*/
+.main__image {
+    background-image: url(../imagenes/Piano.jpg);
+    width: 100;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*CARRUSEL*/
+#slider {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/*CAMBIO DE ORDEN EN QUIENES SOMOS*/
+@media (min-width: 768px) {
+    .who-container-image {
+        order: 1;
+    }
+}
+
+/*EFECTO FOTOS DE EVENTOS*/
+.picture_events:hover {
+    transform: scale(1.10);
+    transition: transform 500ms ease;
+}
+
+/*BORDES*/
+.picture_events,
+.team-picture {
+    @extend .radius-image;
+}
+
+.radius-image {
+    border-radius: 5px;
+}

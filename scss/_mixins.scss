@@ -1,0 +1,5 @@
+@mixin main-titles ($porcentage) {
+    color: $title-color;
+    position: relative;
+    top: $porcentage;
+}

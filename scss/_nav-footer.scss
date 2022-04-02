@@ -1,0 +1,16 @@
+/*NAVBAR AND FOOTER*/
+.menu {
+    background-color: $main-color;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    opacity: 0.55;
+    border-bottom: 1.5px solid $focus-color;
+    transition: all 0.3s ease;
+}
+
+.footer-sm a:hover {
+    opacity: 0.55;
+    transition: all 0.3s ease;
+}

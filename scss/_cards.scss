@@ -1,0 +1,22 @@
+/*CARDS*/
+.card-body {
+    .card-text {
+        position: relative;
+
+        &::before,
+        &::after {
+            display: inline-block;
+            position: relative;
+            vertical-align: bottom;
+            color: red;
+        }
+
+        &::before {
+            content: '“';
+        }
+
+        &::after {
+            content: '”';
+        }
+    }
+}
